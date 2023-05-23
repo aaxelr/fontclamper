@@ -69,7 +69,7 @@
 	</section>
 
 	<section class="example">
-		<p class="example__text" style={`font-size: ${clampString}`}>
+		<p class="example__text" style={`${clampString}`}>
 			The <code>font-size</code> of this paragraph will scale linearly from
 			<code>{minFontSize}rem</code>
 			at a viewport width of <code>{minViewportWidth}px</code> or smaller to
